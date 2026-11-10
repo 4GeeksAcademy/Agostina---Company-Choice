@@ -1,6 +1,6 @@
 # Sitio web de TrackFlow
 
-Sitio corporativo B2B estático de TrackFlow. La landing, el formulario comercial y sus validaciones se incorporarán en las siguientes fases. El formulario será una demostración local: no enviará ni almacenará datos.
+Sitio corporativo B2B estático de TrackFlow. Incluye una landing en `index.html` y un formulario comercial de demostración en `application.html`, validado en el navegador mediante `validation.js`. El formulario no envía ni almacena datos.
 
 ## Requisitos
 
@@ -9,7 +9,7 @@ Sitio corporativo B2B estático de TrackFlow. La landing, el formulario comercia
 
 ## Preparación y compilación
 
-Desde esta carpeta:
+Desde esta carpeta, compila los estilos:
 
 ```bash
 npm install
@@ -22,7 +22,17 @@ Para recompilar automáticamente los estilos durante el desarrollo:
 npm run dev:css
 ```
 
-El CSS compilado se genera en `assets/css/tailwind.css`. El servidor estático y la vista de la web se documentarán al incorporar las páginas.
+El CSS compilado se genera en `assets/css/tailwind.css`.
+
+## Vista previa
+
+Desde esta carpeta, inicia un servidor estático:
+
+```bash
+python3 -m http.server 8000 --bind 0.0.0.0
+```
+
+Abre `http://localhost:8000` para la landing o `http://localhost:8000/application.html` para el formulario. En Codespaces, también puedes abrir el puerto 8000 desde la pestaña **Ports**.
 
 ## Alcance
 
