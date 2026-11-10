@@ -48,12 +48,53 @@ El hito incluye:
 - [x] Crear memory-bank/projectbrief.md.
 - [x] Crear memory-bank/techContext.md.
 
+
 ## 4. Trabajo en curso
 
-- [ ] Completar memory-bank/progress.md.
-- [ ] Verificar que los tres archivos del banco de memoria estén guardados correctamente.
+- [ ] Ejecutar las validaciones finales del repositorio.
+- [ ] Revisar los cambios antes del commit final.
+- [ ] Actualizar la Pull Request existente con los últimos ajustes.
+- [ ] Entregar el enlace de la Pull Request en el campus de 4Geeks.
 
-## 5. Próximas tareas
+## 5. Infraestructura de agentes completada
+
+### Banco de memoria
+
+- [x] Crear `memory-bank/projectbrief.md`.
+- [x] Crear `memory-bank/techContext.md`.
+- [x] Crear `memory-bank/progress.md`.
+- [x] Documentar el contexto empresarial y técnico de TrackFlow.
+- [x] Definir las rutas de futuras aplicaciones del monorepositorio.
+
+### Instrucciones para agentes
+
+- [x] Crear `AGENTS.md`.
+- [x] Definir la documentación obligatoria.
+- [x] Establecer el flujo de trabajo previo a cada commit.
+- [x] Identificar archivos y carpetas protegidos.
+- [x] Documentar convenciones de seguridad y desarrollo.
+
+### Reglas de desarrollo
+
+- [x] Crear `.agents/rules/trackflow-development.md`.
+- [x] Definir reglas específicas para TrackFlow.
+- [x] Establecer su alcance de aplicación.
+
+### Skill reutilizable
+
+- [x] Crear `.agents/skills/executive-report/SKILL.md`.
+- [x] Definir el objetivo de la skill.
+- [x] Documentar las entradas y el procedimiento.
+- [x] Establecer criterios de aceptación verificables.
+
+### Git y GitHub
+
+- [x] Trabajar en `feature/agent-memory-bank`.
+- [x] Crear commits descriptivos.
+- [x] Subir los cambios iniciales a GitHub.
+- [x] Abrir una Pull Request hacia `main`.
+- [x] Incluir un enlace a `AGENTS.md` en la descripción de la PR.
+
 
 ### Instrucciones para agentes
 
@@ -112,9 +153,13 @@ Se propone una arquitectura modular de integración de datos, análisis y agente
 - Las integraciones y tecnologías futuras están pendientes de definición.
 - La implementación del asistente ejecutivo queda fuera del alcance de este hito.
 
+
 ## 8. Próximo paso inmediato
 
-Crear AGENTS.md para definir cómo deben trabajar los agentes de IA dentro del repositorio TrackFlow.
+Ejecutar el flujo de validación definido en `AGENTS.md`, revisar los cambios pendientes, crear el commit final y actualizar la Pull Request existente.
+
+Una vez completadas las verificaciones, entregar el enlace de la Pull Request en el campus de 4Geeks Academy.
+.
 
 ## 9. Criterios de actualización
 

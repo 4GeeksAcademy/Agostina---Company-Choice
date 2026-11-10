@@ -1,6 +1,29 @@
 
 # Regla de desarrollo — TrackFlow
 
+## Alcance de aplicación
+
+- **Tipo de activación:** Siempre activa.
+- **Ámbito:** Todo el repositorio TrackFlow.
+- **Aplicación:** Obligatoria para cualquier agente de IA que cree, modifique o revise código, documentación, configuraciones o integraciones del proyecto.
+
+### Condiciones de aplicación
+
+Esta regla debe aplicarse:
+
+1. Antes de comenzar cualquier tarea de desarrollo.
+2. Al crear o modificar APIs, servicios y pipelines de datos.
+3. Al desarrollar agentes de IA o automatizaciones.
+4. Al modificar documentación técnica o decisiones de arquitectura.
+5. Antes de validar cambios y preparar commits.
+
+### Prioridad
+
+Esta regla complementa las instrucciones generales de `AGENTS.md`.
+
+Si existe un conflicto entre instrucciones, el agente debe detenerse, informar del conflicto y solicitar aclaración antes de continuar.
+
+
 ## 1. Objetivo
 
 Garantizar que cualquier desarrollo realizado por agentes de IA sea coherente con la arquitectura, los procesos empresariales y los objetivos tecnológicos de TrackFlow.

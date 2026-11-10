@@ -134,7 +134,36 @@ Estas tecnologías deberán seleccionarse según los requisitos de los próximos
 - `.agents/rules/`: reglas de desarrollo.
 - `.agents/skills/`: habilidades reutilizables.
 
-Las aplicaciones futuras deberán ubicarse respetando la estructura del monorepositorio y las instrucciones de cada hito.
+
+### Aplicaciones futuras y estructura del monorepositorio
+
+TrackFlow utilizará las carpetas existentes del monorepositorio para desarrollar sus futuras aplicaciones y servicios.
+
+Las ubicaciones obligatorias son:
+
+| Ruta | Función |
+|------|---------|
+| `uis/website/` | Sitio web corporativo público de TrackFlow. |
+| `uis/backoffice/` | Aplicación interna para la gestión operativa, dashboards y herramientas de administración. |
+| `services/` | APIs, servicios backend e integraciones con sistemas empresariales. |
+
+### Aplicación al proyecto TrackFlow
+
+- El sitio web corporativo deberá desarrollarse en `uis/website/`.
+- Los dashboards ejecutivos y las interfaces del futuro Asistente Ejecutivo de IA deberán ubicarse en `uis/backoffice/`.
+- Las APIs, integraciones con sistemas logísticos y servicios backend deberán desarrollarse dentro de `services/`.
+- Los componentes compartidos deberán reutilizar las carpetas existentes del monorepositorio cuando corresponda.
+
+### Restricciones
+
+- No crear carpetas paralelas para aplicaciones frontend o backend.
+- No duplicar funcionalidades existentes.
+- Consultar el archivo README de cada carpeta antes de desarrollar componentes.
+- Respetar las convenciones de la plantilla original.
+- Solicitar autorización antes de modificar la estructura del monorepositorio.
+
+Estas rutas están definidas para futuros desarrollos. En este hito no se implementan aplicaciones ni servicios.
+
 
 ## 7. Principios de desarrollo
 

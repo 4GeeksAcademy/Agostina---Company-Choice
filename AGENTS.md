@@ -111,6 +111,43 @@ La rama de trabajo prevista para este hito es:
 
 `feature/agent-memory-bank`
 
+
+### Flujo obligatorio antes de cada commit
+
+Antes de realizar cualquier commit, el agente debe completar los siguientes pasos en orden:
+
+1. Revisar `git status` para identificar todos los archivos modificados, nuevos o eliminados.
+2. Revisar los cambios mediante `git diff` y comprobar que estén relacionados con la tarea solicitada.
+3. Ejecutar las validaciones y pruebas disponibles, documentando cualquier error o limitación.
+4. Verificar que no se incluyan credenciales, secretos, archivos temporales ni información sensible.
+5. Actualizar `memory-bank/progress.md` cuando corresponda y comprobar que la documentación refleje el estado real del proyecto.
+6. Solicitar autorización al desarrollador antes de realizar el commit.
+
+Solo después de completar este procedimiento podrá prepararse un commit con un mensaje descriptivo.
+
+
+### Archivos y carpetas protegidos
+
+Los agentes de IA no deben modificar los siguientes archivos o directorios sin confirmación explícita del desarrollador:
+
+- `CONTEXT.es.md`: briefing empresarial oficial de TrackFlow.
+- `company-choice.md`: decisiones iniciales sobre la empresa y el enfoque del proyecto.
+- `.github/`: configuración de workflows y automatizaciones de GitHub, si existe.
+- `.devcontainer/`: configuración del entorno de desarrollo.
+- `infra/`: infraestructura y configuraciones de despliegue.
+- Archivos de configuración de dependencias y archivos de bloqueo de versiones.
+
+Además:
+
+- No eliminar ni sobrescribir archivos existentes sin autorización.
+- No modificar configuraciones de producción.
+- No alterar la estructura del monorepositorio sin confirmación.
+- No modificar credenciales ni secretos.
+- No ejecutar migraciones de bases de datos sin autorización.
+
+Si una tarea requiere modificar alguno de estos elementos, el agente debe detenerse, explicar el cambio propuesto y solicitar aprobación antes de continuar.
+
+
 ## 9. Validación y criterios de calidad
 
 Antes de considerar una tarea completada:
