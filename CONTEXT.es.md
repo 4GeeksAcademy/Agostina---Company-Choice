@@ -32,7 +32,7 @@ TrackFlow tiene buenos clientes, un equipo de operaciones competente y una propu
 
 La consecuencia es que TrackFlow es más lenta, más propensa a errores y menos rentable de lo que necesita ser — y la brecha crece mientras los competidores invierten en automatización.
 
-Daniel ha creado una unidad interna llamada TrackFlow Tech con un mandato claro: construir los sistemas, las integraciones y las automatizaciones inteligentes que permitan a TrackFlow operar como la empresa logística moderna que necesita ser.
+Harry ha creado una unidad interna llamada TrackFlow Tech con un mandato claro: construir los sistemas, las integraciones y las automatizaciones inteligentes que permitan a TrackFlow operar como la empresa logística moderna que necesita ser.
 
 Tú formas parte de esa unidad.
 
@@ -88,9 +88,9 @@ Qué necesitan: Telemetría y logging centralizados de ambos países, un pipelin
 
 📊 Dirección Ejecutiva
 
-CEO: Daniel Espinoza
+CEO: Harry Thomas
 
-Daniel recibe un informe consolidado cada lunes que sus directores preparan el domingo por la tarde combinando datos de distintos sistemas — 3 o 4 horas de trabajo por director. A las 10 de la mañana del lunes, algunos datos ya tienen dos días de antigüedad. No hay una visión unificada del negocio por país. Las decisiones estratégicas se toman con datos parciales.
+Harry recibe un informe consolidado cada lunes que sus directores preparan el domingo por la tarde combinando datos de distintos sistemas — 3 o 4 horas de trabajo por director. A las 10 de la mañana del lunes, algunos datos ya tienen dos días de antigüedad. No hay una visión unificada del negocio por país. Las decisiones estratégicas se toman con datos parciales.
 
 Qué necesita: Un dashboard ejecutivo global con KPIs de ambas operaciones en tiempo real (volumen de envíos, tasa de entrega a tiempo, coste operativo, devoluciones, satisfacción del cliente), un informe semanal generado automáticamente los lunes a las 7 de la mañana, comparativas por país, alertas por umbrales, y un asistente de IA al que pueda consultar en lenguaje natural.
 
